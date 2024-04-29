@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+    <title>Halaman Anggota</title>
+  </head>
+
+  <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">SIM Perpus</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Data Master
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item active" href="dm-anggota.html">Anggota</a>
+                  <a class="dropdown-item" href="dm-buku.html">Buku</a>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Transaksi</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="transaksi.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Laporan
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="dm-lapAnggota.html">Anggota</a>
+                  <a class="dropdown-item" href="dm-lapBuku.html">Buku</a>
+                  <a class="dropdown-item" href="dm-lapTransaksi.html">Transaksi</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+
+    <!-- CONTENT -->
+    <div class="container">
+      <!-- CONTENT -->
+      <h1>Data Anggota</h1>
+      <a href="form/input-DataAnggota.html"  class="btn btn-info">Tambah Anggota</a>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Id Anggota</th>
+            <th>Nama</th>
+            <th>Jenis Kelamin</th>
+            <th>Alamat</th>
+            <th>Menu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>1111</td>
+            <td>Aizan Syalim</td>
+            <td>Laki-Laki</td>
+            <td>Godean, Sidoarum</td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>1112</td>
+            <td>Hani Puspita</td>
+            <td>Perempuan</td>
+            <td>Banjarmasin</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- END CONTENT -->
+    
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="../assets/js/jquery.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
